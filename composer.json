@@ -1,0 +1,24 @@
+{
+    "name": "unclesue/sue",
+    "type": "library",
+    "description": "Sue, a simple framework",
+    "keywords": ["framework"],
+    "homepage": "https://unclesue.top",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uncle Sue"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "nikic/fast-route": "^1.3",
+        "catfan/medoo": "^1.6",
+        "symfony/http-foundation": "^4.2",
+        "pimple/pimple": "^3.2",
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "Sue\\": "src/" }
+    }
+}
