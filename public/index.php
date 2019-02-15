@@ -11,7 +11,7 @@ $app = new Sue\Application();
     return $response;
 });*/
 
-require '../application/config/dependencies.php';
-require '../application/config/routes.php';
+require '../app/config/dependencies.php';
+require '../app/config/routes.php';
 
 $app->run();
